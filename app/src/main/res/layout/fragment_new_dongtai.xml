@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include layout="@layout/a_biaoti_biaoti"/>
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:id="@+id/img"
+        android:padding="3dp"
+        android:src="@drawable/zhsq_banner2"
+        android:scaleType="fitXY"
+        />
+
+    <TextView
+        android:id="@+id/txt_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="物业通知"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:textColor="#ED1717"
+        android:layout_margin="10dp"
+        />
+
+
+    <TextView
+        android:id="@+id/txt_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="尊敬的业主：
+　　您好，春节将至，为了让大家能过一个安全、温馨和舒适的节日。我管理处在加强出入口控制和日常巡逻的同时提醒各位业主和住户：
+　　1、如您外出，注意关好门窗以及水、电、气的开关，同时请保管好自己的贵重物品，不要将大额现金留存家中，以免发生火灾和失窃。
+　　2、请您将车辆停放在指定位置，并检查确认车门车窗是否完全锁住，以免造成经济损失;如您长时间外出，而车辆停放在小区内，请及时告之管理处。
+　　3、请不要随意给陌生人开门，以防不测。
+　　4、在使用家用电器及天然气时，请注意用电用火安全，切勿违规操作。
+　　5、春节期间，小区内禁止燃放烟花爆竹。
+　　6、请大家将自家阳台上摆放的物品移至安全地方，以避免高空坠物;同时也请楼上住户不要将物品向楼下丢弃，以免伤及楼下行人及车辆和影响小区的卫生状况。
+"
+        android:textSize="12dp"
+        android:layout_margin="10dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="祝大家新年快乐，万事如意!"
+        android:layout_marginLeft="200dp"
+        />
+
+
+    <TextView
+        android:id="@+id/txt_3"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2021-02-04"
+        android:layout_marginLeft="300dp"
+        />
+
+
+</LinearLayout>

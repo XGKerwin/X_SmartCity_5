@@ -6,6 +6,8 @@ import androidx.fragment.app.FragmentTransaction;
 
 import android.os.Bundle;
 
+import com.example.x_smartcity_5.Fragment.a_page.Fragment_main;
+
 public class MainActivity extends AppCompatActivity {
 
     @Override
