@@ -130,6 +130,10 @@ public class Fragment_fuwu extends Fragment {
                             public void setonClick(String serviceName) {
                                 if (serviceName.equals("活动")){
                                     getFragment(new Fragment_S_huodong());
+                                }else if (serviceName.equals("智慧巴士")){
+                                    getFragment(new Fragment_fuwu_bashi());
+                                }else if (serviceName.equals("停车场")){
+                                    getFragment(new Fragment_fuwu_tingche());
                                 }
 
                             }
